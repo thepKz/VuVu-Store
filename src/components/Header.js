@@ -28,10 +28,10 @@ const Header = () => {
         </div>
         <nav className={`menu ${menuOpen ? 'show' : ''}`}>
           <ul>
-            <li><a href="#" onClick={toggleMenu}>Mới & Nổi bật</a></li>
-            <li><a href="#" onClick={toggleMenu}>Bộ sưu tập</a></li>
-            <li><a href="#" onClick={toggleMenu}>Mega</a></li>
-            <li><a href="#" onClick={toggleMenu}>Về chúng tôi</a></li>
+            <li><a href="#a" onClick={toggleMenu}>Mới & Nổi bật</a></li>
+            <li><a href="#a" onClick={toggleMenu}>Bộ sưu tập</a></li>
+            <li><a href="#aa" onClick={toggleMenu}>Mega</a></li>
+            <li><a href="#a" onClick={toggleMenu}>Về chúng tôi</a></li>
           </ul>
         </nav>
       </div>

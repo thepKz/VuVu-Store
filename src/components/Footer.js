@@ -13,17 +13,17 @@ const Footer = () => {
           <div className="link-column">
             <h4>Sản phẩm</h4>
             <ul>
-              <li><a href="#">Mới & Nổi bật</a></li>
-              <li><a href="#">Bộ sưu tập</a></li>
-              <li><a href="#">Mega</a></li>
+              <li><a href="#a">Mới & Nổi bật</a></li>
+              <li><a href="#a">Bộ sưu tập</a></li>
+              <li><a href="#a">Mega</a></li>
             </ul>
           </div>
           <div className="link-column">
             <h4>Về chúng tôi</h4>
             <ul>
-              <li><a href="#">Giới thiệu</a></li>
-              <li><a href="#">Liên hệ</a></li>
-              <li><a href="#">Chính sách</a></li>
+              <li><a href="#a">Giới thiệu</a></li>
+              <li><a href="#a">Liên hệ</a></li>
+              <li><a href="#a">Chính sách</a></li>
             </ul>
           </div>
         </div>
@@ -31,9 +31,9 @@ const Footer = () => {
       <div className="footer-bottom">
 
         <div className="social-links">
-          <a href="#"><i className="fab fa-facebook-square"></i></a>
-          <a href="#"><i className="fab fa-instagram"></i></a>
-          <a href="#"><i className="fab fa-youtube"></i></a>
+          <a href="#a"><i className="fab fa-facebook-square"></i></a>
+          <a href="#a"><i className="fab fa-instagram"></i></a>
+          <a href="#a"><i className="fab fa-youtube"></i></a>
         </div>
         <p className="copyright">© 2024 Tiệm VuVu. All rights reserved</p>
       </div>
