@@ -14,7 +14,7 @@ const TrangChu = () => {
         <div className="container d-flex">
 
           <div className="content">
-            <h2>Sản Phẩm Thịnh Hành</h2>
+            <h2>Sản Phẩm Thịnh Hành (1.0)</h2>
             <div className="row">
               <div className="col-3 text-center">
                 <img src="images/20240321_145532_361836__1200x1200.jpg" alt="" className="img-100" />
