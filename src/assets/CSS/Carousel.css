@@ -1,0 +1,61 @@
+.swiper-container {
+    width: 100%;
+    height: 900px; /* Đặt chiều cao cố định cho container */
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    display: block;
+
+    height: 90vh;
+    width: 100vw;
+    object-fit: contain; /* Thay đổi từ 'cover' thành 'contain' */
+ /* Đặt chiều cao tối đa cho hình ảnh */
+  }
+  
+  .carousel-caption {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: white;
+    text-align: left;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .carousel-caption h1 {
+    font-size: 1.5em; /* Giảm kích thước chữ */
+    margin-bottom: 5px;
+  }
+  
+  .carousel-caption p {
+    font-size: 0.9em; /* Giảm kích thước chữ */
+  }
+  
+  /* Thêm media query để điều chỉnh kích thước trên các màn hình nhỏ hơn */
+  @media (max-width: 768px) {
+    .swiper-container {
+      height: 300px;
+    }
+  
+    .swiper-slide img {
+      max-height: 300px;
+    }
+  
+    .carousel-caption h1 {
+      font-size: 1.2em;
+    }
+  
+    .carousel-caption p {
+      font-size: 0.8em;
+    }
+  }

@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-
+import logo from '../images/vuvu.png';
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
@@ -20,7 +20,7 @@ const Header = () => {
       <div className="container">
         <div className="logo">
           <a href="index.html">
-            <img src="images/vuvu.png" alt="" width="75px" />
+            <img src= {logo} alt="" width="75px" />
           </a>
         </div>
         <div className="menu-toggle" onClick={toggleMenu}>

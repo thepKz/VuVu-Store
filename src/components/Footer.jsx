@@ -1,11 +1,11 @@
 import React from 'react';
-
+import logo from '../images/vuvu.png';
 const Footer = () => {
   return (
     <footer className="footer-container">
       <div className="footer-content">
         <div className="footer-logo">
-          <img src="images/vuvu.png" alt="Tiệm VuVu Logo" width="300px" />
+          <img src= {logo} alt="Tiệm VuVu Logo" width="300px" />
           <p>Tiệm VuVu</p>
           <p>Cửa hàng đồ chơi và quà tặng độc đáo</p>
         </div>
